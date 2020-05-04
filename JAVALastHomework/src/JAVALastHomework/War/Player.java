@@ -15,7 +15,7 @@ public class Player {
 	public Player() {
 		score = 0;
 	}
-	
+
 	//II1.
 	public void describe() {
 		System.out.println("Name of the player " + name);
@@ -36,13 +36,16 @@ public class Player {
 	
 	//II4.
 	public void incrementScore(){
-		score++;
+		score += 1;
 	}
 
 	//II2.
 	public int getScore() {
 		return score;
 	}
-	
+
+	public int getValue() {
+		return 0;
+	}
 }
 	
