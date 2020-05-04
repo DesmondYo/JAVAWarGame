@@ -38,7 +38,7 @@ public class App {
  		} else if((playerTwo.getScore() > playerOne.getScore())){
  			System.out.println("Player 2 is the Champion!!");
  		} else if (playerOne.getScore() == playerTwo.getScore()) {
-			System.out.println("Its a Tie, lets play again");
+			System.out.println("Its a Tie, lets play again!");
 		}
  	}
 }
